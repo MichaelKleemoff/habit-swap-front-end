@@ -7,9 +7,9 @@ const BadHabit = ({ badHabit }) => {
 		<li className='BadHabits-list-line'>
 			<section>
 				<h2>{name}</h2>
-				<img src={img_url} alt={name} />
 			</section>
 			<section>
+				<img src={img_url} alt={name} />
 				<p>{description}</p>
 			</section>
 		</li>

@@ -2,4 +2,37 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+/* BadHabits.jsx */
+.BadHabits {
+	display: flex;
+	flex-direction: column;
+}
+
+.BadHabits h1 {
+	text-align: center;
+	margin: 1.2rem auto;
+	padding: 0.65rem;
+}
+
+.BadHabits-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-between;
+}
+
+/* BadHabit.jsx */
+.BadHabits-list-line {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 25vw;
+}
+
+.BadHabits-list-line img {
+	width: 25vw;
 }
