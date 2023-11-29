@@ -1,17 +1,16 @@
 /* eslint-disable react/prop-types */
+import { Link } from 'react-router-dom';
+
 const BadHabit = ({ badHabit }) => {
-	const { name, img_url, description } = badHabit;
+	const { name, img_url, id } = badHabit;
 	console.log(name);
 
 	return (
-		<li className='BadHabits-list-line'>
-			<section>
+		<li className='bad-habits-list-line'>
+			<Link to={`/badHabits/${id}`} className='bad-habits-list-line-link'>
 				<h2>{name}</h2>
-			</section>
-			<section>
 				<img src={img_url} alt={name} />
-				<p>{description}</p>
-			</section>
+			</Link>
 		</li>
 	);
 };

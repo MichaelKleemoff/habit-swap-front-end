@@ -17,9 +17,9 @@ const BadHabits = () => {
 	}, []);
 
 	return (
-		<div className='BadHabits'>
+		<div className='bad-habits'>
 			<h1>My Bad Habits</h1>
-			<ul className='BadHabits-list'>
+			<ul className='bad-habits-list'>
 				{badHabits.map((badHabit) => (
 					<BadHabit key={badHabit.id} badHabit={badHabit} />
 				))}
