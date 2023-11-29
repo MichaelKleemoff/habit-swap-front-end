@@ -54,11 +54,11 @@ const BadHabitDetails = () => {
 						<button>Back</button>
 					</Link>
 				</div>
-				{/* <div>
-					<Link to={`/bookmarks/${id}/edit`}>
+				<div>
+					<Link to={`/badHabits/${id}/edit`}>
 						<button>Edit</button>
 					</Link>
-				</div> */}
+				</div>
 				<button onClick={handleDelete}>Delete</button>
 			</div>
 		</article>

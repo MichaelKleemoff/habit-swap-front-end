@@ -11,7 +11,8 @@
 	flex-direction: column;
 }
 
-.bad-habits h1 {
+.bad-habits h1,
+.bad-habit-edit-form h1 {
 	text-align: center;
 	margin: 1.2rem auto;
 	padding: 0.65rem;
@@ -76,4 +77,40 @@
 	display: flex;
 	justify-content: space-around;
 	width: 50%;
+}
+
+/* BadHabitEditForm.jsx */
+.bad-habit-edit-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bad-habit-edit-form h2,
+.bad-habit-edit-form-link {
+	text-align: center;
+}
+
+.bad-habit-edit-form-link {
+	margin-top: 0.8rem;
+}
+
+.bad-habit-edit-form form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 50vw;
+	gap: 0.8rem;
+	margin: 0 auto;
+}
+
+.bad-habit-edit-form input,
+label {
+	width: 100%;
+}
+
+.bad-habit-edit-form textarea {
+	width: 60%;
+	height: 140px;
 }
