@@ -17,13 +17,14 @@ function BadHabitNewForm() {
 
 	// Add a `badHabit`. Redirect to the index view.
 	const addBadHabit = () => {
-		fetch(`${API}/badHabits`, {
+		const httpOptions = {
 			method: 'POST',
 			body: JSON.stringify(badHabit),
 			headers: {
 				'Content-Type': 'application/json',
 			},
-		})
+		};
+		fetch(`${API}/badHabits`, httpOptions)
 			.then(() => {
 				navigate(`/badHabits`);
 			})
