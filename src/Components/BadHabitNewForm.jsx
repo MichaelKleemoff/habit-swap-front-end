@@ -31,11 +31,11 @@ function BadHabitNewForm() {
 	};
 
 	const handleTextChange = (event) => {
-		setBookmark({ ...badHabit, [event.target.id]: event.target.value });
+		setBadHabit({ ...badHabit, [event.target.id]: event.target.value });
 	};
 
 	const handleCheckboxChange = () => {
-		setBookmark({ ...badHabit, is_my_habit: !badHabit.is_my_habit });
+		setBadHabit({ ...badHabit, is_my_habit: !badHabit.is_my_habit });
 	};
 
 	const handleSubmit = (event) => {
