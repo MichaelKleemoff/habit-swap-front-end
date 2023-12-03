@@ -26,6 +26,8 @@ nav {
 .bad-habits {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-content: center;
 }
 
 .bad-habits h1,
@@ -36,10 +38,10 @@ nav {
 }
 
 .bad-habits-list {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0.8rem auto;
+	gap: 4.2rem;
 }
 
 /* BadHabit.jsx */

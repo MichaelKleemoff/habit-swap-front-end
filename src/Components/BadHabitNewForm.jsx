@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API = import.meta.env.VITE_BASE_URL;
+const API = import.meta.env.VITE_API_URL;
 
 function BadHabitNewForm() {
 	const navigate = useNavigate();
