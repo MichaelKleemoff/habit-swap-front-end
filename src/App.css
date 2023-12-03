@@ -25,7 +25,8 @@ nav {
 }
 
 /* BadHabits.jsx */
-.bad-habits {
+.bad-habits,
+.good-habits {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -39,7 +40,8 @@ nav {
 	padding: 0.65rem;
 }
 
-.bad-habits-list {
+.bad-habits-list,
+.good-habits-list {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin: 0.8rem auto;
@@ -73,7 +75,8 @@ nav {
 	padding: 0.8rem 0;
 }
 
-.bad-habits-details img {
+.bad-habits-details img,
+.good-habits-list-line img {
 	width: 100%;
 }
 
@@ -138,4 +141,39 @@ label {
 .bad-habit-new-form textarea {
 	width: 60%;
 	height: 140px;
+}
+
+/* GoodHabits.jsx */
+.good-habits h2 {
+	text-align: center;
+}
+
+/* GoodHabit.jsx */
+.good-habits-list {
+	list-style: none;
+}
+
+.good-habits-list-line img {
+	margin-top: 0.8rem;
+	width: 15vw;
+}
+
+.good-habits-list-line {
+	display: grid;
+	grid-template-columns: repeat(2, 1.66fr);
+	margin: 1.1rem 2.2rem;
+	gap: 1.5rem;
+}
+
+.good-habits-list-line-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+	gap: 0.4rem;
+}
+
+.good-habits-list-line-info span {
+	font-weight: normal;
 }

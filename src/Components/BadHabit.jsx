@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const BadHabit = ({ badHabit }) => {
 	const { name, img_url, id } = badHabit;
-	console.log(name);
 
 	return (
 		<li className='bad-habits-list-line'>
