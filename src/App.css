@@ -20,6 +20,8 @@ nav {
 	padding: 1em;
 	box-shadow: 2px 2px 4px grey;
 	margin-bottom: 1em;
+	position: sticky;
+	top: 0;
 }
 
 /* BadHabits.jsx */
