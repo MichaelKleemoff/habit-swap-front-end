@@ -177,3 +177,26 @@ label {
 .good-habits-list-line-info span {
 	font-weight: normal;
 }
+
+/* GoodHabitForm */
+.good-habit-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 1.6rem;
+}
+
+.good-habit-form h1 {
+	text-align: center;
+	margin-top: 1.2rem;
+}
+
+.good-habit-form form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 50vw;
+	gap: 0.8rem;
+	margin: 0 auto;
+}
